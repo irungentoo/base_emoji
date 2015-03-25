@@ -1,0 +1,11 @@
+Simple library to convert between a mix of emoji and other unicode signs from a byte string and back.
+
+See lib/base_emoji.h for the api.
+
+Compling:
+
+Linux:
+gcc -o tester test/test.c lib/base_emoji.c
+
+Windows
+x86_64-w64-mingw32-gcc -o tester.exe test/test.c lib/base_emoji.c -lws2_32
